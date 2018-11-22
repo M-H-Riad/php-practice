@@ -6,6 +6,7 @@
 <body>
 
 	<?php
+		echo "Salary list of Mr A,B,C ";
 		$a='12000';
 		$b='15000';
 		$c='22000';
