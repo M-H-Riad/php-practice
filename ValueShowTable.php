@@ -41,7 +41,12 @@
 
 
 
+		//To read any type of files...
 
+		$fileName = file('practice1.php');
+		foreach ($fileName as $lineNum => $value) {
+			echo "line $lineNum". htmlspecialchars($value)."<br>";
+		}
 
 
 	?>

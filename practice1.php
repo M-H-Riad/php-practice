@@ -20,7 +20,7 @@
 	?>
 
 	
-	<h3><?php echo "I am learning "."$var";  ?></h3><br><br>
+	<h3><?php echo "Hello ! I am learning "."$var";  ?></h3><br><br>
 
 		
 
