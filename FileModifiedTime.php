@@ -8,7 +8,7 @@
 	<?php
 		$current_file_name = basename('practice1.php');
 		$file_last_modified = filemtime($current_file_name); 
-		echo "Last ".date("l,dS,F,Y,h:ia",$file_last_modified);
+		echo "This file was Last modified on ".date("l,dS,F,Y,h:ia",$file_last_modified);
 	?>
 
 </body>
